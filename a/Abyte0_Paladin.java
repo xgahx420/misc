@@ -23,6 +23,7 @@ public class Abyte0_Paladin extends Abyte0_Script
 		897, //King worm		
 		138, //bread		
 		142, //wine
+		367, //tuna
 		373  //Lobs
 	};		
 		
@@ -183,7 +184,7 @@ public class Abyte0_Paladin extends Abyte0_Script
 				{		
 					thieveNpc(npc[0]);
 					chestReady = true;
-					return random(500, 1000);
+					return random(500, 640);
 				}
 			}
 			else
